@@ -1,0 +1,136 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	min-width: 1000px;
+	font-family: Arial;
+	background-color: #f5f5f5;
+
+}
+
+h2{
+	font-size: 21px;
+	align-items:  center;
+	margin-bottom: 30px;
+}
+
+h3{
+	margin-top: 0;
+	font-size: 16px;
+	font-weight: normal;
+	float: left;
+	margin-bottom: 0;
+}
+
+.fixed-container {
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+.todo-list{
+	float: left;
+	width: 450px;
+	padding: 65px 10px 0 0;
+	margin-right: 20px;
+	list-style: none;
+}
+
+.ul-todo__list{
+	padding: 0;
+	margin: 0;
+}
+
+.ul-todo__list li{
+	list-style: none;
+	width: 430px;
+	background-color: #ffffff;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.ul-todo__list div{
+	color: #8993ad;
+	font-size: 14px;
+	padding-top: 16px;
+}
+
+.ul-todo__list p{
+	margin: 1;
+}
+
+.ul-todo__list hr{
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	border-color: #f7f7f7;
+	padding-top: 20px;
+	margin-bottom: 0;
+}
+
+.img-red-cross{
+	padding-left: 22px;
+}
+
+.img-arrow{
+	float: right;
+	transform: rotate(inherit);
+}
+
+.img-arrow1{
+	transform: rotate(0.5turn);
+}
+
+
+.todo-create{
+	width: 470px;
+	float: left;
+	padding-top: 65px;
+	padding-left: 10px;
+}
+
+.form-add-background{
+	background-color: #ffffff;
+}
+
+.form-add{
+	padding: 50px 40px 55px 40px;
+	min-height: 400px;
+}
+
+.form-add p{
+	font-size: 14px;
+	color: #8993ad;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.todo-task{
+	background-color: #f9f9f9;
+	margin-bottom: 28px;
+	width: 364px;
+	padding: 11px 13px 11px 13px ; 
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ebebeb;
+
+}
+
+.todo-discription{
+	display: block;
+	height: 230px;
+	width: 364px;
+	background-color: #f9f9f9;
+	padding: 11px 13px 11px 13px ; 
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ebebeb;
+	margin-bottom: 30px;
+}
+
+.btn-todo-add{
+	display: block;
+	width: 225px; 
+	height: 55px;
+	background-color: #2174fd;
+	color: #ffffff;
+	border-style: none;
+}
